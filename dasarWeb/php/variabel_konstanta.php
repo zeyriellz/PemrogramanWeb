@@ -6,7 +6,9 @@ echo "Hasil penjumlahan $angka1 dan $angka2 adalah $hasil";
 
 $benar = true;
 $salah = false;
-echo "Variabel benar: $benar, Variabel salah: $salah";
+
+echo " Variabel benar: $benar <br>";
+echo "Variabel salah: $salah <br>";
 
 //Mendefinisikan konstanta untuk nilai tetap
 define("NAMA_SITUS", "WebsiteKu.com");
