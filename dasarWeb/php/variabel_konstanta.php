@@ -7,12 +7,14 @@ echo "Hasil penjumlahan $angka1 dan $angka2 adalah $hasil";
 $benar = true;
 $salah = false;
 
+echo "<br><br>";
 echo " Variabel benar: $benar <br>";
 echo "Variabel salah: $salah <br>";
 
-//Mendefinisikan konstanta untuk nilai tetap
+
 define("NAMA_SITUS", "WebsiteKu.com");
 define("TAHUN_PENDIRIAN", 2023);
 
+echo "<br>";
 echo "Selamat datang di ". NAMA_SITUS . ", situs yang di didirikan pada tahun " . TAHUN_PENDIRIAN . ".";
 ?>
